@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    width: 100vw;
+}
+
 a {
     text-decoration: none;
 }
@@ -75,7 +79,7 @@ section {
 }
 
 #S0 {
-    background: url(pic2.jpeg);
+    background: url(photo/pic2.jpeg);
     background-attachment: fixed;
     background-size: 100%;
 }
@@ -85,7 +89,7 @@ section {
 }
 
 #S2 {
-    background: url(fon1.jpeg);
+    background: url(photo/fon1.jpeg);
     background-size: 100%;
     height: 25em;
 }
@@ -95,7 +99,7 @@ section {
 }
 
 #S4 {
-    background: url(walp.jpeg);
+    background: url(photo/walp.jpeg);
     background-size: 100%;
 }
 

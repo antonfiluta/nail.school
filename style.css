@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+
+em {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 108%; 
+}
+
+header {
+    top: 0;  
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 4.5vw;
+    box-shadow: 0 0 4px 0;
+}
+
+button {
+    background-color:aliceblue;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background: linear-gradient(to right, pink, aliceblue, pink);
+    color: goldenrod;
+    transition: 0.7s;
+}
+
+#LOGO {
+    font-size: 2vw;
+    width: 62%; 
+    background: linear-gradient(to right, pink, aliceblue);
+}
+
+#LOGO:hover {
+    color: goldenrod;
+    transition: 0.7s;
+}
+
+.main_content {
+    width: 100%;
+    font-size: 1.6vw;
+    margin-top: 4.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#S0 {
+    background: url(photos/pic2.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#S1 {
+    background: linear-gradient(to bottom right, pink, aliceblue, pink, aliceblue, pink);
+}
+
+#S2 {
+    background: url(photos/fon1.jpeg);
+    background-size: 100%;
+    height: 25em;
+}
+
+#S3 {
+    background: linear-gradient(to bottom right, pink, aliceblue, pink, aliceblue, pink);
+}
+
+#S4 {
+    background: url(photos/walp.jpeg);
+    background-size: 100%;
+}
+
+.item-0 {
+    text-align: center;
+    height: 22vw;
+    color: white;
+}
+
+.item {
+    margin: 3em 0.2em 3em 0.2em;
+    padding: 20px 0 20px 0;
+    background-color: white;
+    width: 90%;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.flex-image {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.images {
+    width: 33%;
+    border-radius: 10px;
+}
+
+.image {
+    width: 33%;
+    margin-left: 1em;
+    float: right;
+    border: 3px solid black;
+    border-radius: 10px; 
+}
+
+.text {
+    margin: 0 1.2em 0 1.2em;  
+    font-size: 130%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

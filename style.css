@@ -9,15 +9,16 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-h2 {
+h3 {
     text-align: center;
 }
 
 h1 {
     text-transform: uppercase;
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 em {
@@ -30,7 +31,7 @@ header {
     position: fixed;
     display: flex;
     width: 100%;
-    height: 4.6vw;
+    height: 5vw;
     box-shadow: 0 0 4px 0;
 }
 
@@ -39,7 +40,7 @@ button {
     display: inline;
     width: 20.833vw;
     height: 100%;
-    font-size: 2vw;
+    font-size: 2.3vw;
     border: none;
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -52,7 +53,7 @@ button:hover {
 }
 
 #LOGO {
-    font-size: 2vw;
+    font-size: 2.3vw;
     width: 16.67vw; 
     background: linear-gradient(to right, pink, aliceblue);
 }

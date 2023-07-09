@@ -18,7 +18,7 @@ h3 {
 
 h1 {
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 4.8vw;
 }
 
 em {
@@ -40,7 +40,7 @@ button {
     display: inline;
     width: 20.833vw;
     height: 100%;
-    font-size: 2.3vw;
+    font-size: 2.14vw;
     border: none;
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -53,7 +53,6 @@ button:hover {
 }
 
 #LOGO {
-    font-size: 2.3vw;
     width: 16.67vw; 
     background: linear-gradient(to right, pink, aliceblue);
 }

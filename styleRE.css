@@ -31,7 +31,7 @@ header {
     position: fixed;
     display: flex;
     width: 100%;
-    height: 6vw;
+    height: 7vw;
     box-shadow: 0 0 4px 0;
 }
 
@@ -106,7 +106,7 @@ section {
 
 .item-0 {
     text-align: center;
-    height: 22vw;
+    height: 34vw;
     color: white;
 }
 
@@ -143,3 +143,4 @@ section {
     margin: 0 1.2em 0 1.2em;  
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+

@@ -5,11 +5,16 @@
 
 body {
     width: 100vw;
+    background-color: pink;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    text-indent: 0.7vw;
 }
 
 p,

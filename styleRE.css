@@ -15,9 +15,10 @@ a {
 
 p {
     text-indent: 1vw;
+    margin-bottom: 2vw;
+    line-height: 1;
 }
 
-p,
 li,
 h4 {
     margin-bottom: 2vw;

@@ -13,6 +13,10 @@ a {
     color: black;
 }
 
+p {
+    text-indent: 1vw;
+}
+
 p,
 li,
 h4 {

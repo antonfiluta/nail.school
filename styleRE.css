@@ -12,13 +12,13 @@ a {
     color: black;
 }
 
-h3 {
+h4 {
     text-align: center;
 }
 
 h1 {
     text-transform: uppercase;
-    font-size: 6vw;
+    font-size: 6.5vw;
 }
 
 em {
@@ -64,7 +64,7 @@ button:hover {
 
 .main_content {
     width: 100%;
-    font-size: 4vw;
+    font-size: 4.3vw;
     margin-top: 9vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -111,10 +111,10 @@ section {
 }
 
 .item {
-    margin: 2em 0 2em 0;
-    padding: 1em 0 1em 0;
+    margin: 1.5em 0 1.5em 0;
+    padding: 0.9em 0 0.9em 0;
     background-color: white;
-    width: 93%;
+    width: 94%;
     border-radius: 1em;
     text-align: justify;
 }
@@ -140,7 +140,7 @@ section {
 }
 
 .text {
-    margin: 0 1.2em 0 1.2em;  
+    margin: 0 1em 0 1em;  
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

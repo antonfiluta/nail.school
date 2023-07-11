@@ -12,6 +12,12 @@ a {
     color: black;
 }
 
+p,
+li,
+h4 {
+    margin-bottom: 1.8vw;
+}
+
 h4 {
     text-align: center;
 }

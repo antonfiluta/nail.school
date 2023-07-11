@@ -5,11 +5,18 @@
 
 body {
     width: 100vw;
+    background-color: pink;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+p,
+li,
+h4 {
+    margin-bottom: 2vw;
 }
 
 h4 {
@@ -133,7 +140,7 @@ section {
 
 .image {
     width: 33%;
-    margin-left: 1em;
+    margin-left: 0.9em;
     float: right;
     border: 3px solid black;
     border-radius: 10px; 

@@ -158,3 +158,13 @@ table {
 td:nth-child(2) {
     padding-left: 5vw;
 }
+
+details {
+    background-color:rgb(245, 202, 209);
+    border-radius: 1em;
+    margin-bottom: 2vw;
+}
+
+ {
+    margin-top: 40vw;
+}

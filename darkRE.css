@@ -44,6 +44,7 @@ header {
     width: 100%;
     height: 9vw;
     box-shadow: 0 0 4px 0;
+    z-index: 10;
 }
 
 button {
@@ -93,20 +94,11 @@ section {
     background-color: #418f8b;
 }
 
-#S1 {
+#S1, #S3 {
     background-color: #45A29E;;
 }
 
-#S2 {
-    background-color: #66FCF1;
-    height: 25em;
-}
-
-#S3 {
-    background-color: #45A29E;;
-}
-
-#S4 {
+#S2, #S4 {
     background-color: #66FCF1;
 }
 
@@ -114,7 +106,7 @@ section {
     text-align: center;
     height: 34vw;
     color: #66FCF1;
-    font-size: 5.8vw;
+    font-size: 5.1vw;
 }
 
 .item {

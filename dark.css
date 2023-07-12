@@ -5,12 +5,12 @@
 
 body {
     width: 100vw;
-    background-color: pink;
+    background-color: #222;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #66FCF1;
 }
 
 p {
@@ -29,7 +29,6 @@ h4 {
 
 h1 {
     text-transform: uppercase;
-    font-size: 4.8vw;
 }
 
 em {
@@ -47,35 +46,34 @@ header {
 }
 
 button {
-    background-color:aliceblue;
+    background-color: #222;
     display: inline;
     width: 20.833vw;
     height: 100%;
     font-size: 2.14vw;
     border: none;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: #66FCF1;
 }
 
 button:hover {
-    background: linear-gradient(to right, pink, aliceblue, pink);
-    color: goldenrod;
-    transition: 0.7s;
+    background-color: #555;
+    transition: 0.3s;
 }
 
 #LOGO {
     width: 16.67vw; 
-    background: linear-gradient(to right, pink, aliceblue);
+    background-color: #222;
 }
 
 #LOGO:hover {
-    color: goldenrod;
-    transition: 0.7s;
+    background-color: #555;
+    transition: 0.3s;
 }
 
 .main_content {
     width: 100%;
-    font-size: 2.1vw;
+    font-size: 2.4vw;
     margin-top: 4.6vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -91,40 +89,34 @@ section {
 }
 
 #S0 {
-    background: url(photo/pic2.jpeg);
-    background-attachment: fixed;
-    background-size: 100%;
+    background-color: #418f8b;
 }
 
-#S1 {
-    background: linear-gradient(to bottom right, pink, aliceblue, pink, aliceblue, pink);
+#S1, #S3 {
+    background-color: #45A29E;
 }
 
 #S2 {
-    background: url(photo/fon1.jpeg);
-    background-size: 100%;
+    background-color: #66FCF1;
     height: 25em;
 }
 
-#S3 {
-    background: linear-gradient(to bottom right, pink, aliceblue, pink, aliceblue, pink);
-}
-
 #S4 {
-    background: url(photo/walp.jpeg);
-    background-size: 100%;
+    background-color: #66FCF1;
 }
 
 .item-0 {
     text-align: center;
     height: 22vw;
-    color: white;
+    color: #66FCF1;
+    font-size: 4.6vw;
 }
 
 .item {
     margin: 2em 0.2em 2em 0.2em;
     padding: 1em 0 1em 0;
-    background-color: white;
+    background-color: #222;
+    color: #66FCF1;
     width: 93%;
     border-radius: 1em;
     text-align: justify;

@@ -144,3 +144,10 @@ section {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+table {
+    font-size: 4.4vw;
+}
+
+td:nth-child(2) {
+    padding-left: 5vw;
+}

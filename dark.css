@@ -142,3 +142,11 @@ section {
     margin: 0 1.2em 0 1.2em;  
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+table {
+    font-size: 2.56vw;
+}
+
+td:nth-child(2) {
+    padding-left: 5vw;
+}

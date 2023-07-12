@@ -104,7 +104,6 @@ section {
 #S2 {
     background: url(photo/fon1.jpeg);
     background-size: 100%;
-    height: 25em;
 }
 
 #S4 {
@@ -150,4 +149,12 @@ section {
 .text {
     margin: 0 1.2em 0 1.2em;  
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table {
+    font-size: 2.56vw;
+}
+
+td:nth-child(2) {
+    padding-left: 5vw;
 }

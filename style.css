@@ -4,7 +4,6 @@
 }
 
 body {
-    width: 100vw;
     background-color: pink;
 }
 
@@ -37,7 +36,6 @@ ul {
 }
 
 h1 {
-    text-transform: uppercase;
     font-size: 4.8vw;
 }
 
@@ -51,19 +49,17 @@ header {
     display: flex;
     width: 100%;
     height: 5vw;
-    box-shadow: 0 0 4px 0;
+    box-shadow: 0 0 6px 0;
     z-index: 10;
 }
 
 button {
     background-color:aliceblue;
-    display: inline;
     width: 20.833vw;
     height: 100%;
     font-size: 2.14vw;
     border: none;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
 }
 
 button:hover {
@@ -126,17 +122,16 @@ section {
 }
 
 .item {
-    margin: 2em 0.2em 2em 0.2em;
+    margin: 2em 0;
     padding: 1em 0 1em 0;
     background-color: white;
-    width: 93%;
+    width: 85%;
     border-radius: 1em;
     text-align: justify;
 }
 
 .flex-image {
     display: flex;
-    flex-direction: row;
     width: 100%;
     justify-content: space-around;
 }

@@ -4,7 +4,6 @@
 }
 
 body {
-    width: 100vw;
     background-color: #222;
 }
 
@@ -35,10 +34,6 @@ h5 {
     font-size: 2.7vw;
 }
 
-h1 {
-    text-transform: uppercase;
-}
-
 em {
     font-size: 108%; 
 }
@@ -49,13 +44,12 @@ header {
     display: flex;
     width: 100%;
     height: 5vw;
-    box-shadow: 0 0 4px 0;
+    box-shadow: 0 0 6px 0;
     z-index: 10;
 }
 
 button {
     background-color: #222;
-    display: inline;
     width: 20.833vw;
     height: 100%;
     font-size: 2.14vw;
@@ -116,7 +110,7 @@ section {
 }
 
 .item {
-    margin: 2em 0.2em 2em 0.2em;
+    margin: 2em 0;
     padding: 1em 0 1em 0;
     background-color: #222;
     color: #66FCF1;

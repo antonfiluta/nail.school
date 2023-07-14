@@ -151,3 +151,26 @@ table {
 td:nth-child(2) {
     padding-left: 5vw;
 }
+
+details {
+    background: linear-gradient(to left, #222, #555);
+    border-radius: 0.5em;
+    margin-bottom: 2vw;
+}
+
+.info {
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.cours {
+    margin-bottom: 0.4vw;
+}
+
+ul {
+    margin-left: 4vw;
+}
+
+h5 {
+    font-size: 4.5vw;
+}

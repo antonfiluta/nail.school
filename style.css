@@ -27,6 +27,11 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+}
+
 h1 {
     text-transform: uppercase;
     font-size: 4.8vw;
@@ -160,11 +165,24 @@ td:nth-child(2) {
 }
 
 details {
-    background-color:rgb(245, 202, 209);
-    border-radius: 1em;
+    background: linear-gradient( to left, white, pink);
+    border-radius: 0.6em;
     margin-bottom: 2vw;
 }
 
- {
-    margin-top: 40vw;
+.info {
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.cours {
+    margin-bottom: 0.25vw;
+}
+
+ul {
+    margin-left: 4vw;
+}
+
+h5 {
+    font-size: 2.7vw;
 }

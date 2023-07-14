@@ -22,12 +22,16 @@ h4 {
     margin-bottom: 1.8vw;
 }
 
-h4 {
-    text-align: center;
-}
-
 ul {
     margin-left: 4vw;
+}
+
+h2 {
+   font-size: 4vw;
+}
+
+h4 {
+    text-align: center;
 }
 
 h5 {
@@ -36,6 +40,7 @@ h5 {
 
 em {
     font-size: 108%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -106,7 +111,7 @@ section {
     text-align: center;
     height: 22vw;
     color: #66FCF1;
-    font-size: 4vw;
+    font-size: 3.7vw;
 }
 
 .item {
@@ -114,7 +119,7 @@ section {
     padding: 1em 0 1em 0;
     background-color: #222;
     color: #66FCF1;
-    width: 93%;
+    width: 85%;
     border-radius: 1em;
     text-align: justify;
 }

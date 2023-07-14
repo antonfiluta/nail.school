@@ -22,6 +22,18 @@ h4 {
     margin-bottom: 1.8vw;
 }
 
+ul {
+    margin-left: 4vw;
+}
+
+h1 {
+    font-size: 4.8vw;
+}
+
+h2 {
+    font-size: 3.4vw;
+}
+
 h4 {
     text-align: center;
 }
@@ -31,16 +43,9 @@ h5 {
     margin-bottom: 1vw;
 }
 
-ul {
-    margin-left: 4vw;
-}
-
-h1 {
-    font-size: 4.8vw;
-}
-
 em {
     font-size: 108%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {

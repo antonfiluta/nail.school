@@ -36,3 +36,5 @@ function darkMode() {
             i--;
           } 
 } 
+
+alert("Нажми на кнопку Nail School, чтобы включить тёмный режим");

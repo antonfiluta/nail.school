@@ -28,12 +28,19 @@ h4 {
     text-align: center;
 }
 
+ul {
+    margin-left: 4vw;
+}
+
+h5 {
+    font-size: 4.5vw;
+}
+
 h1 {
     text-transform: uppercase;
 }
 
 em {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 108%; 
 }
 
@@ -165,12 +172,4 @@ details {
 
 .cours {
     margin-bottom: 0.4vw;
-}
-
-ul {
-    margin-left: 4vw;
-}
-
-h5 {
-    font-size: 4.5vw;
 }

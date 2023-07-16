@@ -61,6 +61,7 @@ header {
 button {
     background-color:aliceblue;
     width: 20.833vw;
+    color: black;
     height: 100%;
     font-size: 2.14vw;
     border: none;

@@ -1,0 +1,60 @@
+#LOGO {
+    width: 22vw; 
+    background: linear-gradient(to right, pink, aliceblue);
+}
+
+#LOGO:hover {
+    color: goldenrod;
+    transition: 0.7s;
+} 
+
+.re_button {
+    width: 27vw;
+}
+
+.card {
+    margin: 0 1.2em 0 1.2em; 
+    padding: 0.7em 0.7em 0.25em 0.7em; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(245, 235, 222);
+    border-radius: 0.8em;
+    width: 60%;
+}
+
+.topFlex {
+    display: flex;
+}
+
+.icon {
+    width: 12vw;
+    border-radius: 0.7em;
+}
+
+.topEl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cardName {
+    font-size: 2.7vw;
+    font-weight: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nameCours {
+    margin: 0;
+}
+
+.date {
+    font-size: 1.4vw;
+}
+
+.rate {
+    margin-top: 1.2vw;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    background-color:white;
+    min-height: 10vw;
+    margin-bottom: 0;
+}

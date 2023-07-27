@@ -179,3 +179,30 @@ details {
 .cours {
     margin-bottom: 0.4vw;
 }
+
+.card {
+    width: 75%;
+}
+
+.icon {
+    width: 17vw;
+    border-radius: 0.7em;
+}
+
+.date {
+    font-size: 2.8vw;
+}
+
+.cardName {
+    font-size: 4.4vw;
+    font-weight: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.coursName {
+    font-size: 3.8vw;
+}
+
+.rate {
+    font-size: 3.4vw;
+}

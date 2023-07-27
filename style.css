@@ -182,3 +182,22 @@ details {
 .cours {
     margin-bottom: 0.25vw;
 }
+
+.card {
+    width: 60%;
+}
+
+.icon {
+    width: 12vw;
+    border-radius: 0.7em;
+}
+
+.date {
+    font-size: 1.4vw;
+}
+
+.cardName {
+    font-size: 2.7vw;
+    font-weight: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -18,16 +18,10 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(245, 235, 222);
     border-radius: 0.8em;
-    width: 60%;
 }
 
 .topFlex {
     display: flex;
-}
-
-.icon {
-    width: 12vw;
-    border-radius: 0.7em;
 }
 
 .topEl {
@@ -36,18 +30,8 @@
     width: 100%;
 }
 
-.cardName {
-    font-size: 2.7vw;
-    font-weight: normal;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .nameCours {
     margin: 0;
-}
-
-.date {
-    font-size: 1.4vw;
 }
 
 .rate {

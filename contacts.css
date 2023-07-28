@@ -1,19 +1,5 @@
-#LOGO {
-    width: 22vw; 
-    background: linear-gradient(to right, pink, aliceblue);
-}
-
-#LOGO:hover {
-    color: goldenrod;
-    transition: 0.7s;
-} 
-
-.re_button {
-    width: 27vw;
-}
-
 .card {
-    margin: 0 1.2em 0 1.2em; 
+    margin: 0 1.2em 2em 1.2em; 
     padding: 0.7em 0.7em 0.25em 0.7em; 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(245, 235, 222);
@@ -41,4 +27,16 @@
     background-color:white;
     min-height: 10vw;
     margin-bottom: 0;
+}
+
+.rateBox1 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.rateBox2 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }

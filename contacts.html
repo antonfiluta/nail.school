@@ -177,8 +177,10 @@
                 <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
             </div>
           </div>
-
-          <div class="rateBox2 display">
+          
+          <div id="disElBoth">
+          <div id="disEl1" class="display">
+          <div class="rateBox2" id="disEl">
             <div class="card">
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
@@ -192,7 +194,7 @@
             </div>
           </div>
 
-          <div class="rateBox1 display">
+          <div class="rateBox1">
             <div class="card">
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
@@ -206,7 +208,7 @@
             </div>
           </div>
 
-          <div class="rateBox2 display">
+          <div class="rateBox2">
             <div class="card">
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
@@ -219,35 +221,56 @@
                 <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
             </div>
           </div>
-
-          <div class="rateBox1 display">
-            <div class="card">
-                <div class="topFlex">
-                    <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
-                    <div class="topEl">
-                        <p class="cardName">Мария Игоревна</p>
-                        <p class="nameCours">Курс "Повышение"</p>
-                        <p class="date">09.07.2023</span>
-                    </div>
-                </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
-            </div>
           </div>
-
-          <div class="rateBox2 display">
-            <div class="card">
-                <div class="topFlex">
-                    <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
-                    <div class="topEl">
-                        <p class="cardName">Мария Игоревна</p>
-                        <p class="nameCours">Курс "Повышение"</p>
-                        <p class="date">09.07.2023</span>
-                    </div>
-                </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+          
+          <div id="disEl2" class="display">
+            <div class="rateBox1" id="disEl">
+              <div class="card">
+                  <div class="topFlex">
+                      <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
+                      <div class="topEl">
+                          <p class="cardName">Мария Игоревна</p>
+                          <p class="nameCours">Курс "Повышение"</p>
+                          <p class="date">09.07.2023</span>
+                      </div>
+                  </div>
+                  <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+              </div>
             </div>
-          </div>
-          <div class="butFlexBox"><button id="rateButton">Показать ещё</button></div>
+  
+            <div class="rateBox2">
+              <div class="card">
+                  <div class="topFlex">
+                      <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
+                      <div class="topEl">
+                          <p class="cardName">Мария Игоревна</p>
+                          <p class="nameCours">Курс "Повышение"</p>
+                          <p class="date">09.07.2023</span>
+                      </div>
+                  </div>
+                  <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+              </div>
+            </div>
+  
+            <div class="rateBox1">
+              <div class="card">
+                  <div class="topFlex">
+                      <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
+                      <div class="topEl">
+                          <p class="cardName">Мария Игоревна</p>
+                          <p class="nameCours">Курс "Повышение"</p>
+                          <p class="date">09.07.2023</span>
+                      </div>
+                  </div>
+                  <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+              </div>
+            </div>
+            </div>
+            </div>
+          
+          <div class="butFlexBox"><button id="rateButton1" onclick="moreRates1()" class="rateButton">Показать ещё</button></div>
+          <div class="butFlexBox"><button id="rateButton2" onclick="moreRates2()" class="rateButton display">Показать ещё</button></div>
+          <div class="butFlexBox"><button id="rateButtonD" onclick="moreRates2(), moreRates1(), moreRatesD()" class="rateButton display">Скрыть</button></div>
         </div>
         <br><br><br> 
     </section>

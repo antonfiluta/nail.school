@@ -5,10 +5,14 @@
     align-items: center;
 }
 
+summary {
+    cursor: pointer;
+}
+
 .card {
     margin: 0 1.2em 2em 1.2em; 
-    padding: 0.7em 0.7em 0.25em 0.7em; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.5em 0.5em 0.25em 0.5em; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(245, 235, 222);
     border-radius: 0.8em;
 }
@@ -37,13 +41,21 @@
 }
 
 .rateBox1 {
-    width: 100%;
     display: flex;
     justify-content: start;
 }
 
 .rateBox2 {
-    width: 100%;
     display: flex;
     justify-content: end;
+}
+
+.display {
+    display: none;
+}
+
+.butFlexBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

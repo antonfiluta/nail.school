@@ -54,7 +54,7 @@ header {
     z-index: 10;
 }
 
-button {
+.headButton {
     background-color:aliceblue;
     color: black;
     width: 20.8vw;
@@ -62,9 +62,10 @@ button {
     font-size: 3.4vw;
     border: none;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
-button:hover {
+.headButton:hover {
     background: linear-gradient(to right, pink, aliceblue, pink);
     color: goldenrod;
     transition: 0.7s;
@@ -199,8 +200,8 @@ details {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.coursName {
-    font-size: 3.8vw;
+.nameCours{
+    font-size: 3.4vw;
 }
 
 .rate {
@@ -211,3 +212,14 @@ details {
     font-size: 2.3vw;
     margin-top: 0vw;
  }
+
+ #rateButton {
+    width: 20vw;
+    height: 6vw;
+    background-color: pink;
+    border-radius: 0.6vw;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 3vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

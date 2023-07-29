@@ -58,7 +58,7 @@ header {
     z-index: 10;
 }
 
-button {
+.headButton {
     background-color:aliceblue;
     width: 20.833vw;
     color: black;
@@ -66,9 +66,10 @@ button {
     font-size: 2.14vw;
     border: none;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
-button:hover {
+.headButton:hover {
     background: linear-gradient(to right, pink, aliceblue, pink);
     color: goldenrod;
     transition: 0.7s;
@@ -194,6 +195,7 @@ details {
 
 .date {
     font-size: 1.4vw;
+    font-family: monospace;
 }
 
 .cardName {
@@ -205,3 +207,18 @@ details {
 .back {
     font-size: 1vw;
  }
+
+ #rateButton {
+    width: 10vw;
+    height: 4vw;
+    background-color: pink;
+    border-radius: 0.4vw;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 1.45vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#rateButton:hover {
+    background-color: cornsilk;
+}

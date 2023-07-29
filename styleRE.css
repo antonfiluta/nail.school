@@ -57,7 +57,7 @@ header {
 button {
     background-color:aliceblue;
     color: black;
-    width: 20.833vw;
+    width: 20.8vw;
     height: 100%;
     font-size: 3.4vw;
     border: none;
@@ -206,3 +206,8 @@ details {
 .rate {
     font-size: 3.4vw;
 }
+
+.back {
+    font-size: 2.3vw;
+    margin-top: 0vw;
+ }

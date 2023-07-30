@@ -1,18 +1,6 @@
 const linkS = document.querySelector("link");
 
-let wid = window.innerWidth;
-let hei = window.innerHeight;
-
-let size = wid > hei;
-let sizex = wid < hei;
-
 let i = 0;
-
-if (size) {
-    linkS.href = "style.css";
-} else {
-    linkS.href = "styleRE.css";
-}
 
 let buttonR1 = document.getElementById("rateButton1");
 let buttonR2 = document.getElementById("rateButton2");
@@ -38,4 +26,13 @@ function moreRatesD() {
   buttonR1.classList.toggle("display");
 }
 
-
+window.addEventListener('scroll', function() {
+  let wid = window.innerWidth;
+  let hei = window.innerHeight;
+  let size = wid > hei;
+  if (size) {
+    linkS.href = "style.css";
+  } else {
+    linkS.href = "styleRE.css";
+}
+});

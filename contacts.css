@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #LOGO {
     display: flex;
     flex-direction: column;

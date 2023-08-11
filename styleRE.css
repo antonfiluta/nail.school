@@ -174,6 +174,8 @@ details {
     background: linear-gradient( to left, white, pink);
     border-radius: 0.5em;
     margin-bottom: 2vw;
+    box-sizing: border-box;
+    padding-bottom: 1vw;
 }
 
 .info {
@@ -217,7 +219,7 @@ details {
     margin-top: 0vw;
  }
 
- .rateButton {
+.rateButton {
     width: 20vw;
     height: 6vw;
     background-color: pink;

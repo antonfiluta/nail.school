@@ -177,6 +177,8 @@ details {
     background: linear-gradient( to left, white, pink);
     border-radius: 0.6em;
     margin-bottom: 2vw;
+    box-sizing: border-box;
+    padding-bottom: 1vw;
 }
 
 .info {

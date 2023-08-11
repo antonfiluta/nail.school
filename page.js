@@ -2,6 +2,15 @@ const linkS = document.querySelector("link");
 
 let i = 0;
 
+let widS = window.innerWidth;
+let heiS = window.innerHeight;
+let sizeS = widS > heiS;
+if (sizeS) {
+    linkS.href = "style.css";
+} else {
+    linkS.href = "styleRE.css";
+}
+
 let buttonR1 = document.getElementById("rateButton1");
 let buttonR2 = document.getElementById("rateButton2");
 let buttonD = document.getElementById("rateButtonD");

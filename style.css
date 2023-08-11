@@ -250,7 +250,7 @@ h2 {
 }
 
 h5 {
-    font-size: 4.5vw;
+    font-size: 4vw;
 }
 
 header {
@@ -273,56 +273,24 @@ header {
 .item {
     margin: 1.5em 0 1.5em 0;
     padding: 0.9em 0 0.9em 0;
-    background-color: white;
     width: 94%;
     border-radius: 1em;
-    text-align: justify;
-}
-
-.flex-image {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.images {
-    width: 33%;
-    border-radius: 10px;
 }
 
 .image {
-    width: 33%;
     margin-left: 0.9em;
-    float: right;
-    border: 3px solid black;
-    border-radius: 10px; 
 }
 
 .text {
     margin: 0 1em 0 1em;  
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 table {
     font-size: 4.4vw;
 }
 
-td:nth-child(2) {
-    padding-left: 5vw;
-}
-
 details {
-    background: linear-gradient( to left, white, pink);
     border-radius: 0.5em;
-    margin-bottom: 2vw;
-    box-sizing: border-box;
-    padding-bottom: 1vw;
-}
-
-.info {
-    margin-top: 1vw;
-    margin-left: 2vw;
 }
 
 .cours {
@@ -335,7 +303,6 @@ details {
 
 .icon {
     width: 17vw;
-    border-radius: 0.7em;
 }
 
 .date {
@@ -344,8 +311,6 @@ details {
 
 .cardName {
     font-size: 4.4vw;
-    font-weight: normal;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nameCours{

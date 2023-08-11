@@ -40,10 +40,11 @@ h2 {
 
 h4 {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h5 {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     margin-bottom: 1vw;
 }
 
@@ -162,7 +163,7 @@ section {
 
 .text {
     margin: 0 1.2em 0 1.2em;  
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: forum;
 }
 
 table {
@@ -188,6 +189,13 @@ details {
 
 .cours {
     margin-bottom: 0.25vw;
+}
+
+.about-courses {
+    text-align: center;
+    margin-top: 2.5vw;
+    font-size: 2.55vw;
+    font-family: forum;
 }
 
 .card {
@@ -247,6 +255,10 @@ h1 {
 
 h2 {
     font-size: 4.6vw;
+}
+
+h4 {
+    font-size: 3.7vw;
 }
 
 h5 {
@@ -341,4 +353,26 @@ details {
 .rateButton:hover {
     background-color: rgb(255, 149, 169);
 }
+
+.about-courses {
+    font-size: 4.2vw;
 }
+}
+
+
+
+
+
+@font-face {
+    font-family: "Forum"; 
+    src: url("fonts/Forum/Forum-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Inter"; 
+    src: url("fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 

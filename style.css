@@ -265,6 +265,7 @@ details {
 }
 
 .sliderImages {
+    width: 100%;
     height: 23vw;
     overflow: hidden;
 }
@@ -293,23 +294,25 @@ details {
 
 .arrow {
     position: absolute;
-    padding: 0;
-    display: block;
-    width: 1vw;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #eee;
+    height: 93%;
     padding: 1vw;
-}
-  
-.arrow:hover {
-    background: #ccc;
     cursor: pointer;
 }
 
 #prew {
-    left: 1vw;
+    left: 0.5vw;
 }
 
 #next {
-    right: 1vw;
+    right: 0.5vw;
+}
+
+.arrowImg {
+    width: 1.5vw;
 }
 /* Slider-End */
 @media screen and (max-width: 800px) {

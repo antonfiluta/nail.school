@@ -108,7 +108,7 @@ section {
 }
 
 #S0 {
-    background: url(photo/pic2.jpeg);
+    background: url(photo/pic2s.png);
     background-attachment: fixed;
     background-size: 100%;
 }
@@ -129,7 +129,7 @@ section {
 
 .item-0 {
     text-align: center;
-    height: 22vw;
+    height: 28vw;
     color: white;
 }
 
@@ -361,6 +361,12 @@ header {
 .main_content {
     font-size: 3.6vw;
     margin-top: 9vw;
+}
+
+#S0 {
+    background: url(photo/pic2.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 .item-0 {

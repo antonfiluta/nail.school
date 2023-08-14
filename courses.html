@@ -16,7 +16,7 @@
     <button onclick="window.location.href = 'index.html'" id="LOGO" class="headButton"><em>Nail School</em><span class="back">назад</span></button>
     <button onclick="window.location.href = '#S1'" class="headButton">О КУРСАХ</button>
     <button onclick="window.location.href = '#S2'" class="headButton">КУРСЫ</button>
-    <button onclick="window.location.href = '#S3'" class="headButton">ПРЕПОД</button>
+    <button onclick="window.location.href = '#S3'" class="headButton">ПЕДАГОГ</button>
     <button onclick="window.location.href = 'result.html'" class="headButton">ОТЗЫВЫ</button>
   </header>
   <div class="main_content"> 
@@ -62,10 +62,32 @@
           </ul>
         </div>
         <h5 class="about-courses">Работы наших учеников</h5>
-        <div class="text">
-          
+        <div class="sliderBox">
+        <div id="slider">
+          <img src="photo/Arrow2.png" alt="back" class="arrow" id="prew" onclick="prew()">
+          <div class="sliderImages">
+            <div id="marginBox">
+            <div class="imagesBox">
+              <img src="photo/nail.jpg" class="sliderImg">
+              <img src="photo/nail.jpg" class="sliderImg">
+              <img src="photo/nail.jpg" class="sliderImg">
+            </div>
+            <div class="imagesBox">
+              <img src="photo/nail1.jpeg" class="sliderImg">
+              <img src="photo/nail1.jpeg" class="sliderImg">
+              <img src="photo/nail1.jpeg" class="sliderImg">
+            </div>
+            <div class="imagesBox">
+              <img src="photo/nail2.jpeg" class="sliderImg">
+              <img src="photo/nail2.jpeg" class="sliderImg">
+              <img src="photo/nail2.jpeg" class="sliderImg">
+            </div>
+            </div>
+          </div>
+          <img src="photo/Arrow1.png" alt="next" class="arrow" id="next" onclick="next()">
         </div>
-       </div>
+        </div>
+      </div>
       <br><br><br> 
     </section>
     <!-- second section -->
@@ -200,16 +222,16 @@
               </ul>
               </div>
           </details>
-          <p>Расписание курсов вы можете узнать в нашем <a href="https://www.instagram.com/tvoi_nogti_minsk/" style="text-decoration: underline;">Instagram</a> или по телефону</p>
+          <p>Расписание курсов вы можете узнать в нашем <a href="https://www.instagram.com/tvoi_nogti_minsk/" style="text-decoration: underline;">Instagram</a> или по <a href="index.html#S3" style="text-decoration: underline;">телефону</a></p>
         </div>
-       </div>
+        </div>
       <br><br><br>
     </section>
     <!-- third section -->
     <section id="S3">
       <br><br><br>   
       <div class="item">
-        <h4>Наставница</h4>
+        <h4>Педагог</h4>
         <div class="text">
           <img src="photo/master.jpeg" class="image">
           <p>Привет, я <b>Симончик Алёна</b> - мастер и инструктор по маникюру.</p>
@@ -225,17 +247,26 @@
         <br><br><br>   
         <div class="item">
           <h4>ОТЗЫВЫ</h4>
+          <div class="text">
+            <p>Свой отзыв вы можете оставить в нашем Instagram: <a href="https://www.instagram.com/tvoi_nogti_minsk/" title="ссылка на инсту">@tvoi_nogti_minsk</a></p>
+          </div>
           <div class="rateBox1">
             <div class="card">
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
                     <div class="topEl">
-                        <p class="cardName">Мария Игоревна</p>
+                        <p class="cardName">Зайцева Мария 10/10</p>
                         <p class="nameCours">Курс "Повышение"</p>
                         <p class="date">09.07.2023</span>
                     </div>
                 </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+                <div class="rate">
+                  <p>Хочу написать отзыв Вам, Алена, и слова благодарности заодно.</p>
+                  <p>Я проходила базовые Курсы в одной школе Минска до того как придти к Алене на Курсы комбинированного маникюра. И придя к Аленочке, я была в шоке от того, сколько в первой школе мне не додали информации именно базового уровня. У Алёны  я была на повышении уже, она все равно вкратце сначала заполнила мои пробелы в базе совершенно бесплатно, хотя она и не обязана была этого делать. Как было сказано, не зная базы не поймёшь повышения.</p>
+                  <p>Спасибо Вам, Аленочка, за Ваш ответственный подход к выбранной профессии.</p>
+                  <p>Было много теории, схем, зарисовок, но тем не менее все понятно и доступно. Когда началась практика на моделях, мне даже было интересно наблюдать, как Алена находит подход к каждой ученице по разному, потому что по разному до всех доходит)) это профессионализм по-моему.</p>
+                  <p>Инструктор это Ваше! И именно в ногтевой сфере! Потому что работы лично Ваши крутые. Теперь и я знаю как правильно делать маникюр гель лаком. Но мне есть к чему стремиться.</p>
+                </div>
             </div>
           </div>
           
@@ -244,12 +275,14 @@
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
                     <div class="topEl">
-                        <p class="cardName">Мария Игоревна</p>
+                        <p class="cardName">Мария Игоревна 10/10</p>
                         <p class="nameCours">Курс "Повышение"</p>
                         <p class="date">09.07.2023</span>
                     </div>
                 </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+                <div class="rate">
+                  <p>Алена, я так тебе благодарна что научила меня многим вещам по маникюру и педикюру... Я все делаю как ты говорила... Я выставляю свои работы на обсуждение другим мастерам... мне написали что у меня фотошоп... хотя я не пользуюсь им... кроме как обрезать фото...И мои работы заметили...попросили приходить в парикмахерскую и работать когда мне удобно))) Работодатель так и сказала...я хочу чтобы ты у меня работала...представляешь??? И это благодаря тебе... Спасибо</p>
+                </div>
             </div>
           </div>
 
@@ -258,28 +291,30 @@
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
                     <div class="topEl">
-                        <p class="cardName">Мария Игоревна</p>
+                        <p class="cardName">Мария Игоревна 10/10</p>
                         <p class="nameCours">Курс "Повышение"</p>
                         <p class="date">09.07.2023</span>
                     </div>
                 </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+                <p class="rate">Курсы бомба!)) Атмосфера в студии очень дружеская, накормили, напоили чаем, ну и конечно же поделились своими знаниями. Елена, Вы большая умничка, я до сих рада, что выбрала именно Вашу обучающую школу. Это не первые мои Курсы и мне есть с чем сравнивать, и хочу сказать, что Вы лучшие в подаче знаний в этой сфере. Спасибо)))</p>
             </div>
           </div>
           
-          <div id="disElBoth">
           <div id="disEl1" class="display">
           <div class="rateBox2" id="disEl">
             <div class="card">
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
                     <div class="topEl">
-                        <p class="cardName">Мария Игоревна</p>
+                        <p class="cardName">Мария Игоревна 10/10</p>
                         <p class="nameCours">Курс "Повышение"</p>
                         <p class="date">09.07.2023</span>
                     </div>
                 </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+                <div class="rate">
+                  <p>Огромное спасибо!!</p>
+                  <p>Мне было настолько комфортно и интересно, что я готова снова идти учитьсяк вам</p>
+                </div>
             </div>
           </div>
 
@@ -293,7 +328,7 @@
                         <p class="date">09.07.2023</span>
                     </div>
                 </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+                <p class="rate">Благодарю тебя, моя хорошая,за багаж знаний и море позитива! У нас всё получится! Мы лучшие!</p>
             </div>
           </div>
 
@@ -302,64 +337,23 @@
                 <div class="topFlex">
                     <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
                     <div class="topEl">
-                        <p class="cardName">Мария Игоревна</p>
+                        <p class="cardName">bnelishka</p>
                         <p class="nameCours">Курс "Повышение"</p>
-                        <p class="date">09.07.2023</span>
+                        <p class="date">05.08.2023</span>
                     </div>
                 </div>
-                <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
+                <div class="rate">Курс - это правда что-то нереальное!
+                  <p>Методички вообще просто супер!</p>
+                  <p>И за дополнительный материал спасибо, за советы, лайфхаки. В общем, все было более чем прекрасно)</p>
+                  <p>Я искренне верю, что таких счастливых девочек как я, после ваших курсов будет в 100 раз больше.</p>
+                  <p>Спасибо огромное за ваш труд!</p>
+                </div>
             </div>
           </div>
           </div>
-          
-          <div id="disEl2" class="display">
-            <div class="rateBox1" id="disEl">
-              <div class="card">
-                  <div class="topFlex">
-                      <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
-                      <div class="topEl">
-                          <p class="cardName">Мария Игоревна</p>
-                          <p class="nameCours">Курс "Повышение"</p>
-                          <p class="date">09.07.2023</span>
-                      </div>
-                  </div>
-                  <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
-              </div>
-            </div>
-  
-            <div class="rateBox2">
-              <div class="card">
-                  <div class="topFlex">
-                      <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
-                      <div class="topEl">
-                          <p class="cardName">Мария Игоревна</p>
-                          <p class="nameCours">Курс "Повышение"</p>
-                          <p class="date">09.07.2023</span>
-                      </div>
-                  </div>
-                  <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
-              </div>
-            </div>
-  
-            <div class="rateBox1">
-              <div class="card">
-                  <div class="topFlex">
-                      <img src="photo/icon.jpeg" alt="фото профиля" class="icon">
-                      <div class="topEl">
-                          <p class="cardName">Мария Игоревна</p>
-                          <p class="nameCours">Курс "Повышение"</p>
-                          <p class="date">09.07.2023</span>
-                      </div>
-                  </div>
-                  <p class="rate">Очень понравилось. Всё понятно и наглядно. Большое спасибо!</p>
-              </div>
-            </div>
-            </div>
-            </div>
           
           <div class="butFlexBox"><button id="rateButton1" onclick="moreRates1()" class="rateButton">Показать ещё</button></div>
-          <div class="butFlexBox"><button id="rateButton2" onclick="moreRates2()" class="rateButton display">Показать ещё</button></div>
-          <div class="butFlexBox"><button id="rateButtonD" onclick="moreRates2(), moreRates1(), moreRatesD()" class="rateButton display">Скрыть</button></div>
+          <div class="butFlexBox"><button id="rateButtonD" onclick="moreRatesD()" class="rateButton display">Скрыть</button></div>
         </div>
         <br><br><br> 
     </section>

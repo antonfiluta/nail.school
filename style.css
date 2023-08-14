@@ -137,7 +137,7 @@ section {
     margin: 2em 0;
     padding: 1em 0 1em 0;
     background-color: white;
-    width: 85%;
+    width: 86vw;
     border-radius: 1em;
     text-align: justify;
 }
@@ -238,7 +238,85 @@ details {
     background-color: rgb(255, 149, 169);
 }
 
+.relative-Box {
+    position: relative;
+    width: 100%;
+    height: 230px;
+}
+
+/* Slider-Start */
+.sliderBox {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2vw;
+}
+
+#slider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    padding: 2vw 4vw;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    background: #eee;
+}
+
+.sliderImages {
+    height: 23vw;
+    overflow: hidden;
+}
+
+#marginBox {
+    height: 23vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 221.31vw;
+    box-sizing: border-box;
+    transition: margin-left 1.5s ease-in-out;
+}
+
+.imagesBox {
+    box-sizing: border-box;
+    width: 73.855vw;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.sliderImg {
+    width: 23vw;
+    border-radius: 15px;
+}
+
+.arrow {
+    position: absolute;
+    padding: 0;
+    display: block;
+    width: 1vw;
+    padding: 1vw;
+}
+  
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+#prew {
+    left: 1vw;
+}
+
+#next {
+    right: 1vw;
+}
+/* Slider-End */
 @media screen and (max-width: 800px) {
+.imagesBox {
+    width: 81vw;
+}
+
 p {
     text-indent: 1vw;
     margin-bottom: 2vw;

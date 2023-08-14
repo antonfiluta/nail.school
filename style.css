@@ -314,7 +314,11 @@ details {
 /* Slider-End */
 @media screen and (max-width: 800px) {
 .imagesBox {
-    width: 81vw;
+    width: 81.7vw;
+}
+
+#marginBox {
+    width: 245.1vw;
 }
 
 p {

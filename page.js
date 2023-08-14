@@ -18,11 +18,21 @@ let position = 0;
 let offWidth = 73.6;
 
 function prew() {
-  position += 73.855;
-  marginBox.style.marginLeft = position + 'vw';
+  if (window.innerWidth < 800) { 
+    position += 81.7;
+    marginBox.style.marginLeft = position + 'vw';
+  } else {
+    position += 73.855;
+    marginBox.style.marginLeft = position + 'vw';
+  }
 };
 
 function next() {
-  position -= 73.855;
-  marginBox.style.marginLeft = position + 'vw';
+  if (window.innerWidth < 800) { 
+    position -= 81.7;
+    marginBox.style.marginLeft = position + 'vw';
+  } else {
+    position -= 73.855;
+    marginBox.style.marginLeft = position + 'vw';
+  }
 };

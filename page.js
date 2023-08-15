@@ -1,3 +1,19 @@
+function toUp() {
+  if (window.innerHeight < (window.scrollY - 200)) {
+    let toUps = document.querySelector('.toUp');
+    toUps.style.display = "block";
+  }
+}
+window.addEventListener('scroll', toUp);
+
+function toUpReverse() {
+  if (window.innerHeight > (window.scrollY - 200)) {
+    let toUps = document.querySelector('.toUp');
+    toUps.style.display = "none";
+  }
+}
+window.addEventListener('scroll', toUpReverse);
+
 function moreRates1() {
   disEl1.classList.remove("display");
   rateButton1.classList.add("display");
@@ -41,20 +57,3 @@ function next() {
   }
 }
 };
-
-
-function toUp() {
-  if (window.innerHeight < window.scrollY) {
-    let toUp = document.getElementById('toUp');
-    toUp.style.display = "block";
-  }
-}
-window.addEventListener('scroll', toUp);
-
-function toUpReverse() {
-  if (window.innerHeight > window.scrollY) {
-    let toUp = document.getElementById('toUp');
-    toUp.style.display = "none";
-  }
-}
-window.addEventListener('scroll', toUpReverse);

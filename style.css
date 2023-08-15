@@ -4,7 +4,7 @@
 }
 
 html {
-    scroll-behavior: smooth 3s;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
     }
 }
 
-#toUp {
+.toUp {
     display: none;
     position: fixed;
     right: 0;

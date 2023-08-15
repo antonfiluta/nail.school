@@ -36,3 +36,19 @@ function next() {
     marginBox.style.marginLeft = position + 'vw';
   }
 };
+
+function toUp() {
+  if (window.innerHeight < window.scrollY) {
+    let toUp = document.getElementById('toUp');
+    toUp.style.display = "block";
+  }
+}
+window.addEventListener('scroll', toUp);
+
+function toUpReverse() {
+  if (window.innerHeight > window.scrollY) {
+    let toUp = document.getElementById('toUp');
+    toUp.style.display = "none";
+  }
+}
+window.addEventListener('scroll', toUpReverse);

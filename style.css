@@ -1,9 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-html {
     scroll-behavior: smooth;
 }
 
@@ -11,49 +8,6 @@ body {
     background-color: pink;
     position: relative;
 }
-/* toUp-start */
-@keyframes gradient {
-    from {
-        border: 3px solid blue;
-        padding: 13px;
-    }
-    
-    50% {
-        border: 3px solid green;
-    }
-
-    to {
-        border: 3px solid red;
-        padding: 15px;
-    }
-}
-
-.toUp {
-    display: none;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    padding: 15px;
-    margin: 5px;
-    border-radius: 150px;
-    background-color: whitesmoke;
-    z-index: 100;
-    cursor: pointer;
-
-    animation-name: gradient;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.toUpImg {
-    width: 30px;
-}
-
-#toUp:hover {
-    padding: 20px;
-}
-/* toUp-End */
 
 a {
     text-decoration: none;
@@ -84,7 +38,9 @@ h2 {
 
 h4 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Forum;
+    font-weight: 900;
+    font-size: 2.6vw;
 }
 
 h5 {
@@ -179,7 +135,7 @@ section {
 
 .item {
     margin: 2em 0;
-    padding: 1em 0 1em 0;
+    padding: 1vw 0 1vw 0;
     background-color: white;
     width: 86vw;
     border-radius: 1em;
@@ -189,11 +145,11 @@ section {
 .flex-image {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .images {
-    width: 33%;
+    width: 24%;
     border-radius: 10px;
 }
 
@@ -216,6 +172,11 @@ table {
 
 td:nth-child(2) {
     padding-left: 5vw;
+    font-weight: 700;
+}
+
+td {
+    padding-bottom: 2vw;
 }
 
 details {
@@ -289,76 +250,101 @@ details {
 }
 
 /* Slider-Start */
-.sliderBox {
+.sliderWrap {
+    display: flex;
     width: 100%;
-    box-sizing: border-box;
-    padding: 0 2vw;
+    justify-content: center;
+    position: relative;
 }
 
 #slider {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    box-sizing: border-box;
-    padding: 2vw 4vw;
-    border: 1px solid #CCC;
-    border-radius: 15px;
-    background: #eee;
-}
-
-.sliderImages {
-    width: 100%;
-    height: 23vw;
+    width: 80.5vw;
     overflow: hidden;
 }
 
-#marginBox {
-    height: 23vw;
+#sliderUl {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 221.31vw;
-    box-sizing: border-box;
-    transition: margin-left 1.5s ease-in-out;
+    margin: 0;
+    gap: 1.5vw;
+    list-style-type: none;
+    transition: margin 0.75s ease;
 }
 
-.imagesBox {
-    box-sizing: border-box;
-    width: 73.855vw;
-    display: flex;
-    justify-content: space-between;
+.slidLi {
+    margin-bottom: 0;
 }
-  
+
 .sliderImg {
-    width: 23vw;
-    border-radius: 15px;
+    width: 19vw;
+    height: 19vw;
+    border-radius: 10px;
 }
 
 .arrow {
     position: absolute;
+    height: 19vw;
+    width: 10vw;
     display: flex;
     align-items: center;
-    border: none;
-    background-color: #eee;
-    height: 93%;
-    padding: 1vw;
-    cursor: pointer;
 }
 
-#prew {
-    left: 0.5vw;
+#back {
+    left: 0;
 }
 
 #next {
-    right: 0.5vw;
+    right: 0;
+    justify-content: end;
 }
 
-.arrowImg {
-    width: 1.5vw;
+.arImg {
+    width: 2vw;
 }
 /* Slider-End */
+
+/* toUp-start */
+@keyframes gradient {
+    from {
+        border: 3px solid blue;
+        padding: 13px;
+    }
+    
+    50% {
+        border: 3px solid green;
+    }
+
+    to {
+        border: 3px solid red;
+        padding: 15px;
+    }
+}
+
+.toUp {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 150px;
+    background-color: whitesmoke;
+    z-index: 100;
+    cursor: pointer;
+
+    animation-name: gradient;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.toUpImg {
+    width: 30px;
+}
+
+#toUp:hover {
+    padding: 20px;
+}
+/* toUp-End */
 @media screen and (orientation: portrait) {
 .imagesBox {
     width: 81.7vw;

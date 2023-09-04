@@ -26,34 +26,28 @@ function moreRatesD() {
   rateButton1.classList.remove("display");
 }
 
-
-const prewB = document.getElementById('prew');
-const nextB = document.getElementById('next');
-let images = document.querySelector('.sliderImg')
-let width = images.offsetWidth;
 let position = 0;
-let offWidth = 73.6;
 
-function prew() {
+function toBack() {
   if (position < 0) {
   if (window.innerWidth < 800) { 
-    position += 81.7;
-    marginBox.style.marginLeft = position + 'vw';
+    position += 20.5;
+    sliderUl.style.marginLeft = position + 'vw';
   } else {
-    position += 73.855;
-    marginBox.style.marginLeft = position + 'vw';
+    position += 20.5;
+    sliderUl.style.marginLeft = position + 'vw';
   }
 }
 };
 
-function next() {
-  if (position > -147.71) {
+function toNext() {
+  if (position > -41) {
   if (window.innerWidth < 800) { 
-    position -= 81.7;
-    marginBox.style.marginLeft = position + 'vw';
+    position -= 20.5;
+    sliderUl.style.marginLeft = position + 'vw';
   } else {
-    position -= 73.855;
-    marginBox.style.marginLeft = position + 'vw';
+    position -= 20.5;
+    sliderUl.style.marginLeft = position + 'vw';
   }
 }
 };

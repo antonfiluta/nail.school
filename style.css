@@ -265,6 +265,7 @@ details {
 #sliderUl {
     display: flex;
     margin: 0;
+    margin-left: -1640vw;
     gap: 1.5vw;
     list-style-type: none;
     transition: margin 0.75s ease;
@@ -283,18 +284,20 @@ details {
 .arrow {
     position: absolute;
     height: 19vw;
-    width: 10vw;
+    width: 25vw;
     display: flex;
     align-items: center;
 }
 
 #back {
     left: 0;
+    padding-left: 0.5vw;
 }
 
 #next {
     right: 0;
     justify-content: end;
+    padding-right: 0.5vw;
 }
 
 .arImg {
@@ -345,7 +348,30 @@ details {
     padding: 20px;
 }
 /* toUp-End */
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 800px) {
+#slider {
+    width: 87vw;
+}
+
+#sliderUl {
+    margin-left: -1760vw;
+    gap: 1vw;
+}
+
+.sliderImg {
+    width: 21vw;
+    height: 21vw;
+    border-radius: 10px;
+}
+
+#back {
+    padding-left: 1vw;
+}
+
+#next {
+    padding-right: 1vw;
+}
+
 .imagesBox {
     width: 81.7vw;
 }

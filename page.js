@@ -27,11 +27,16 @@ function moreRatesD() {
 }
 
 let position = 0;
+if (window.innerWidth < 800) {
+  position = -1760;
+} else {
+  position = -1640;
+}
 
 function toBack() {
-  if (position < 0) {
+  if (position != 0) {
   if (window.innerWidth < 800) { 
-    position += 20.5;
+    position += 22;
     sliderUl.style.marginLeft = position + 'vw';
   } else {
     position += 20.5;
@@ -41,13 +46,15 @@ function toBack() {
 };
 
 function toNext() {
-  if (position > -41) {
-  if (window.innerWidth < 800) { 
-    position -= 20.5;
-    sliderUl.style.marginLeft = position + 'vw';
-  } else {
-    position -= 20.5;
-    sliderUl.style.marginLeft = position + 'vw';
+if (window.innerWidth < 800) {
+  if (position != -3432) {
+   position -= 22;
+   sliderUl.style.marginLeft = position + 'vw';
   }
-}
+} else {
+  if (position != -3198) {
+  position -= 20.5;
+  sliderUl.style.marginLeft = position + 'vw';
+  }
 };
+}

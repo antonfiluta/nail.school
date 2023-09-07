@@ -239,6 +239,11 @@ details {
     color: black;
 }
 
+.rate {
+    max-height: 400px;
+    overflow: scroll;
+}
+
 .rateButton:hover {
     background-color: rgb(255, 149, 169);
 }
@@ -478,6 +483,7 @@ details {
 
 .rate {
     font-size: 3.4vw;
+    max-height: 300px;
 }
 
 .back {

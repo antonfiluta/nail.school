@@ -208,12 +208,18 @@ details {
 }
 
 .icon {
-    width: 12vw;
+    width: 14vw;
     border-radius: 0.7em;
+}
+
+.nameCours {
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .date {
     font-size: 1.4vw;
+    margin-bottom: 0;
     font-family: monospace;
 }
 
@@ -227,7 +233,7 @@ details {
     font-size: 1vw;
  }
 
- .rateButton {
+.rateButton {
     width: 10vw;
     height: 4vw;
     background-color: pink;
@@ -314,7 +320,6 @@ details {
 @keyframes gradient {
     from {
         border: 3px solid blue;
-        padding: 13px;
     }
     
     50% {
@@ -323,7 +328,6 @@ details {
 
     to {
         border: 3px solid red;
-        padding: 15px;
     }
 }
 
@@ -474,11 +478,11 @@ details {
 }
 
 .cardName {
-    font-size: 4.4vw;
+    font-size: 3.5vw;
 }
 
 .nameCours{
-    font-size: 3.4vw;
+    font-size: 2.2vw;
 }
 
 .rate {

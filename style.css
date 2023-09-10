@@ -142,15 +142,18 @@ section {
     text-align: justify;
 }
 
-.flex-image {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.aboutImgR {
+    border-radius: 7px;
+    width: 11vw;
+    float: right;
+    margin-left: 2vw;
 }
 
-.images {
-    width: 24%;
-    border-radius: 10px;
+.aboutImgL {
+    border-radius: 7px;
+    width: 11vw;
+    float: left;
+    margin-right: 1vw;
 }
 
 .image {
@@ -358,6 +361,19 @@ details {
 }
 /* toUp-End */
 @media screen and (max-width: 800px) {
+.aboutImgR,
+.aboutImgL {
+    width: 19vw;
+}
+
+#aboutP {
+    clear: both;
+}
+
+#aboutP2 {
+    clear: left;
+}
+
 #slider {
     width: 87vw;
 }

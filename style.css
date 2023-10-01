@@ -284,7 +284,7 @@ details {
 #sliderUl {
     display: flex;
     margin: 0;
-    margin-left: -1640vw;
+    margin-left: -1845vw;
     gap: 1.5vw;
     list-style-type: none;
     transition: margin 0.75s ease;
@@ -384,7 +384,7 @@ details {
 }
 
 #sliderUl {
-    margin-left: -1760vw;
+    margin-left: -1980vw;
     gap: 1vw;
 }
 
@@ -421,7 +421,7 @@ h4 {
 }
 
 h1 {
-    font-size: 6.5vw;
+    font-size: 3.4vw;
 }
 
 h2 {

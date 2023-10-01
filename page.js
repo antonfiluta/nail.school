@@ -28,9 +28,9 @@ function moreRatesD() {
 
 let position = 0;
 if (window.innerWidth < 800) {
-  position = -1760;
+  position = -1980;
 } else {
-  position = -1640;
+  position = -1845;
 }
 
 function toBack() {
@@ -47,12 +47,12 @@ function toBack() {
 
 function toNext() {
 if (window.innerWidth < 800) {
-  if (position != -3432) {
+  if (position != -3872) {
    position -= 22;
    sliderUl.style.marginLeft = position + 'vw';
   }
 } else {
-  if (position != -3198) {
+  if (position != -3608) {
   position -= 20.5;
   sliderUl.style.marginLeft = position + 'vw';
   }

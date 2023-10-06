@@ -29,7 +29,7 @@ summary {
 
 .nameCours {
     margin: 0;
-    font-family: inter;
+    font-family: inter, 'Courier New', Courier, monospace;
 }
 
 .rate {
@@ -39,7 +39,7 @@ summary {
     background-color:white;
     min-height: 10vw;
     margin-bottom: 0;
-    font-family: forum;
+    font-family: forum, 'Courier New', Courier, monospace;
 }
 
 .rateBox1 {
@@ -61,3 +61,20 @@ summary {
     display: flex;
     justify-content: center;
 }
+
+
+@font-face {
+    font-family: "Forum"; 
+    src: url("fonts/Forum/Forum-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: "Inter"; 
+    src: url("fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    font-display: swap;
+} 

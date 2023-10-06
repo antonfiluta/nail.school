@@ -43,7 +43,7 @@ h2 {
 
 h4 {
     text-align: center;
-    font-family: Forum;
+    font-family: Forum, 'Courier New', Courier, monospace;
     font-weight: 900;
     font-size: 2.6vw;
 }
@@ -171,7 +171,7 @@ section {
 
 .text {
     margin: 0 1.2em 0 1.2em;  
-    font-family: forum;
+    font-family: forum, 'Courier New', Courier, monospace;
 }
 
 table {
@@ -208,7 +208,7 @@ details {
     text-align: center;
     margin-top: 2.5vw;
     font-size: 2.55vw;
-    font-family: forum;
+    font-family: forum, 'Courier New', Courier, monospace;
 }
 
 .card {
@@ -546,6 +546,7 @@ details {
     src: url("fonts/Forum/Forum-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
+    font-display: swap;
 } 
 
 @font-face {
@@ -553,4 +554,5 @@ details {
     src: url("fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
+    font-display: swap;
 } 

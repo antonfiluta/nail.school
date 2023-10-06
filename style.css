@@ -546,7 +546,6 @@ details {
     src: url("fonts/Forum/Forum-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-    font-display: swap;
 } 
 
 @font-face {
@@ -554,5 +553,4 @@ details {
     src: url("fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-    font-display: swap;
 } 

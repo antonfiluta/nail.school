@@ -38,18 +38,17 @@ h1 {
 }
 
 h2 {
-    font-size: 3.4vw;
-}
-
-h4 {
     text-align: center;
     font-family: Forum, 'Courier New', Courier, monospace;
     font-weight: 900;
     font-size: 2.6vw;
+    margin-bottom: 2vw;
+    text-transform: uppercase;
 }
 
-h5 {
+h3 {
     font-size: 2.2vw;
+    margin-top: 0;
     margin-bottom: 1vw;
 }
 
@@ -416,7 +415,7 @@ p {
 }
 
 li,
-h4 {
+h2 {
     margin-bottom: 2vw;
 }
 
@@ -425,14 +424,10 @@ h1 {
 }
 
 h2 {
-    font-size: 4.6vw;
-}
-
-h4 {
     font-size: 3.7vw;
 }
 
-h5 {
+h3 {
     font-size: 4vw;
 }
 
